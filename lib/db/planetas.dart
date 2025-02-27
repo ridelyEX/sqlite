@@ -10,6 +10,9 @@ class Planetas {
     id = planeta["id"];
     nombre = planeta["nombre"];
     distSol = planeta["distSol"];
-    radio=planeta["radio"];
+    radio = planeta["radio"];
   }
+    Map<String, dynamic> aMap() {
+      return {"id": id, "nombre": nombre, "disSol": distSol, "radio": radio};
+    }
 }

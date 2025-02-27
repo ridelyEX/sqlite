@@ -38,8 +38,12 @@ dependencies:
   #24 febrero
 
   sqflite_common_ffi: ^2.3.5
-
+  sqflite_common: ^2.5.5
   after_layout: ^1.2.0
+  sqflite_common_ffi_web: ^1.0.0
+  sqlite3_flutter_libs: ^0.5.31
+  path_provider: ^2.1.5
+
 
 dev_dependencies:
   flutter_test:
